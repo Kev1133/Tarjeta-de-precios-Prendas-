@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  width: 220px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: #e74c3c;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+
+.price {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #999;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.price2 {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #999;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.price3 {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #999;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.green button {
+  background: #1abc9c;
+}
+
+.red button {
+  background: red;
+  
+}
+
+.orange button {
+  background: #f39c12;
+}
+
+.green:hover .price {
+  color: #1abc9c;
+}
+
+.green:hover button {
+  background: #1abc9c;
+}
+
+.red:hover .price {
+  color: red
+}
+
+.red:hover button {
+  background: #e74c3c;
+}
+
+.orange:hover .price {
+  color: #f39c12;
+}
+
+.orange:hover button {
+  background: #f39c12;
+}
